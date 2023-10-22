@@ -21,3 +21,19 @@ python3 manage.py runserver
 ## Bonus
 Consider updating your `list.html` from an `ul` to bootstrap cards!
 
+# step 1: move to your working directory
+cd ~/Code/SDGKU/mb
+# step 2: Activate your venv
+source venv/bin/activate
+
+pip3 freeze (in venv)
+
+where to find details/commands how to instaill packages. 
+
+# create your migrations:
+python3 manage.py makemigrations
+# run your migrations
+python3 manage.py migrate
+
+history
+
