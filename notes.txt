@@ -37,3 +37,4 @@ python3 manage.py migrate
 
 history
 
+locking posts to login? 
